@@ -14,22 +14,22 @@
     <title>Homepage of Developer Youngyun Jeong (Steve)</title>
 
     <!-- favicon -->
-    <link href="favicon.png" rel=icon>
+    <link href="../favicon.png" rel=icon>
 
     <!-- web-fonts -->
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
 
     <!-- font-awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- owl carousal -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.carousel.css" rel="stylesheet">
 
     <!-- Style CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,26 +38,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<script>
-    window.onload = function() {
-        let browserLocale = getLang();
-        console.log(browserLocale);
-        if(!browserLocale.toLowerCase().includes("ko") && !browserLocale.toLowerCase().includes("kr")) {
-            location.replace("/en/index.html");
-        } 
-    };
-    function getLang() {
-        if (navigator.languages !== undefined) { 
-            return navigator.languages[0]; 
-        } else { 
-            if(navigator.language === undefined){
-                return navigator.browserLanguage;
-            } else {
-                return navigator.language;
-            }
-        }
-    }
-</script>
 <body>
 <div id="main-wrapper">
 <!-- Page Preloader -->
@@ -72,23 +52,23 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="profile-img">
-                    <img src="img/my-profile.png" class="img-responsive" alt=""/>
+                    <img src="../img/my-profile.png" class="img-responsive" alt=""/>
                 </div>
                 <!-- Profile Image -->
             </div>
             <div class="col-md-9">
                 <div class="name-wrapper">
-                    <h1 class="name">정영윤</h1>
-                    <span>웹 개발자</span>
+                    <h1 class="name">Youngyun Jeong</h1>
+                    <span>Web / Android Developer</span>
                 </div>
                 <p>
-                    지난 6년간 안드로이드와 웹 개발자로 일하고 있습니다. Java, Spring Framework, JavaScript, Node.js, Android 등의 기술을 사용하여 관계사 시스템 개발, 공공 시스템 개발 및 운영, e-store 개발 프로젝트 등에 참여하였으며,  현재 사내 Agile 개발 문화 확산팀에서 사내 개발 문화 개선을 위한 다양한 활동을 해오고 있습니다.
+                    I have worked as a web developer during the last 6 years. I have experienced in the software developing projects for IT system for the national tax services of the Korean government,  e-store of Samsung and IT system for Samsung affiliates by using various programming languages and frameworks such as Java, Spring framework, JavaScript, Node.js, Android and so on. Recently, I am working for the agile transformation of the company as an agile developer.
                 </p>
                 <p>
-                    빠르게 변화하는 IT 기술에 뒤쳐지지 않기 위해 항상 배우는 자세로 노력하고 있는 개발자입니다. 새로운 기술을 학습하고 이를 프로젝트에 적용하는 것을 좋아합니다.  엔젤톡이라고 하는 오픈 소스 프로젝트에 참여하여 안드로이드 앱 개발과 커뮤니티 운영을 하고 있습니다.
+                    I am a developer who is always striving to learn about new technologies and improve myself to stay up-to-date in such a swifty, dynamic software industry. I also enjoy thinking about various and new services, especially about helping people by using IT technology. I am participating and leading in the open source project “AngelTalk” which is for developing AAC(Augmentative and Alternative Communication) software for helping people who have speech impairments.
                 </p>
                 <p>
-                    사용자의 피드백을 받아 점진적으로 서비스를 발전시켜가면서, 제 자신의 커리어도 함께 성장시켜가는 경험을 지속할 수 있기를 희망합니다.
+                    I hope that I will continue experiencing to grow my career as I progressively improve my services and products with user feedback.
                 </p>
             </div>
         </div>
@@ -164,16 +144,16 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="content-item">
-                            <small>2016.06 ~ 재직중</small>
-                            <h2>Agile Core Team, 삼성 SDS</h2>
-                            <h3>웹, 안드로이드 개발자 / 애자일 개발자</h3>
+                            <small>2016.06 ~ Currently employed</small>
+                            <h2>Agile Core Team, Samsung SDS</h2>
+                            <h3>Web, Android Developer / Agile Developer</h3>
                             <p>
-                                삼성전자 e-store 글로벌 확산 프로젝트<br/>
-                                삼성전자 반도체 품질관리 시스템 통합 프로젝트<br/>
-                                디지털 사이니지 개발 프로젝트<br/>
-                                사내 벤처(C-Lab) 프로젝트<br/>
-                                BMW Future Retail Shop 시스템 개발<br/>
-                                삼성 생명화재 보험컨설팅 태블릿 애플리케이션 개발<br/>
+                                Samsung Electronics e-Store(samsung.com)<br/>
+                                Samsung Electronics Quality management system of the semiconductor <br/>
+                                Koelnmesse Digital signage management system<br/>
+                                In-house Venture (C-Lab) Mobile matching platform for user testing <br/>
+                                BMW  IT system for future retail shop<br/>
+                                Samsung Life Insurance Tablet application for consultants<br/>
                             </p>
                         </div>
                         <!-- .experience-item -->
@@ -181,11 +161,11 @@
                     <div class="col-md-6">
                         <div class="content-item">
                             <small>2013.08 ~ 2016.06</small>
-                            <h2>솔루션 개발 그룹, 삼성 SDS</h2>
-                            <h3>웹 개발자</h3>
+                            <h2>Solution Development Team, Samsung SDS</h2>
+                            <h3>Web Developer</h3>
                             <p>
-                                국세청 차세대 시스템 구축 및 운영<br/>
-                                2016년도 개발직군 신입사원 기술교육 TF
+                                IT system for the National Tax Service of Korean government<br/>
+                                Task force for technical training for new employees at 2016
                             </p>
                         </div>
                         <!-- .experience-item -->
@@ -193,12 +173,11 @@
                     <div class="col-md-6">
                         <div class="content-item">
                             <small>2010.06 ~ 2012.06</small>
-                            <h2>현대중공업 산업기술연구소</h2>
-                            <h3>연구원</h3>
+                            <h2>Industrial Technology Research Institute, Hyundai Heavy Industries</h2>
+                            <h3>Researcher</h3>
 
-                            <p>선박 건조 스케쥴링 및 도크 배치 시스템 개발<br/>
-                                조선 블록 조립 공정 시뮬레이션 분석<br/>
-                                선박 건조 실적 자동처리 시스템 개발</p>
+                            <p>Developed dock scheduling and allocation system for ship building<br/>
+                                Simulation and analysis of block assembly line</p>
                         </div>
                         <!-- .experience-item -->
                     </div>
@@ -222,10 +201,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>삼성전자 e-store(samsung.com) 개발 프로젝트 2019.04 ~ 2019.06</h2>
+                            <h2>Samsung Electronics e-store development 2019.04 ~ 2019.07</h2>
                             <p>
-                                담당업무 : 삼성전자 체코/슬로바키아 법인을 위한 재고 배송관리 서비스 및 관계사 플러그인 개발 , 삼성전자 영국 법인 UAT QA 지원<br/>
-                                사용기술 : Node.js, PostgreSQL, CockroachDB, RabbitMQ, ElasticSearch, 마이크로서비스 아키텍처<br/>
+                                Developed a fulfillment service and plug-ins for managing logistics and inventory for Czech and Slovakia, Supporting QA for UAT(user acceptance test) of the United Kingdom<br/>
+                                Used Node.js, PostgreSQL, CockroachDB, RabbitMQ, ElasticSearch, Microservices Architecture<br/>
                                 <a href="https://www.samsung.com/cz/">https://www.samsung.com/cz/</a>, <a href="https://www.samsung.com/sk/">https://www.samsung.com/sk/</a>
                             </p>
                         </div>
@@ -237,10 +216,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>삼성전자 반도체 품질관리 시스템 통합 개발 프로젝트 2018.06 ~ 2018.11 </h2>
+                            <h2>Samsung Electronics Semiconductor Quality Management System Development 2018.06 ~ 2018.11 </h2>
                             <p>
-                                담당업무 : 공통 Task 관리(이슈 트래커) API 서버 및 업무 화면 개발<br/>
-                                사용기술 : Spring Framework, jQuery, Oracle
+                                Developed API server and front-end UIs for the issue tracker <br/>
+                                Used Spring Framework, jQuery, Oracle
                             </p>
                         </div>
 
@@ -251,10 +230,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>독일 쾰른메세 디지털사이니지 관리 시스템 개발 프로젝트 (World’s 7th largest trade fair and exhibition center) 2018.01 ~ 2018.03 </h2>
+                            <h2>Koelnmesse - World’s 7th largest trade fair and exhibition center - Digital Signage Development 2018.01 ~2018.03 </h2>
                             <p>
-                                담당업무 : 미디어 컨텐츠 관리(미디어 파일 업/다운로드, html 편집기) 서비스 back-end API 서버, UI 개발<br/>
-                                사용기술 : React.js, Spring Framework, Netflix OSS 기반 마이크로서비스 아키텍처, MongoDB, AWS S3<br/>
+                                Developed API server and front-end UIs for the media content service - managing file up/download and online html editing tool<br/>
+                                Used React.js, Spring Framework, Microservices Architecture based on Netflix OSS, MongoDB, AWS S3<br/>
                                 <a href="https://www.samsungsds.com/global/en/news/story/Nexshop-in-Koelnmesse.html">https://www.samsungsds.com/global/en/news/story/Nexshop-in-Koelnmesse.html</a>
                             </p>
                         </div>
@@ -266,11 +245,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>유저 테스팅 매칭 플랫폼 개발 프로젝트 ( C-Lab - 사내벤처 ) 2017.07 ~ 2017.12 </h2>
+                            <h2>User Testing Platform Development - C-lab, In-house start-up in Samsung - 2017.07 ~ 2017.12</h2>
                             <p>
-                                담당 업무 : 앱 사용 정보를 제공하는 사용자를 위한 안드로이드 앱, 유저 테스팅이 필요한 스타트업 및 개발사를 위한 웹 서비스, 웹 크롤러 개발<br/>
-                                사용기술: Android, Vue.js, Node.js, MongoDB, Azure<br/>
-                                2018년 주식회사 포메이커스로 스핀 오프<br/>
+                                Developed an android app for collecting app behavior and recommending new apps, web crawler to collect new apps from Google play<br/>
+                                Used Android, Vue.js, Node.js, MongoDB, Azure<br/>
                                 <a href="https://play.google.com/store/apps/details?id=com.appbee.appbeemobile">https://play.google.com/store/apps/details?id=com.appbee.appbeemobile</a>
                             </p>
                         </div>
@@ -281,10 +259,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>BMW Future Retail Shop 고객 사용자 경험 시스템 개발 2016.10 ~ 2017.02</h2>
+                            <h2>BMW Future Retail Customer Experience System Development 2016.10 ~ 2017.02</h2>
                             <p>
-                                담당업무 : 컨설턴트(Product Genius)를 위한 고객 컨설팅용 안드로이드 태블릿 앱 개발, GearVR, Gear360 Camera, NFC Reader 등 장비 연동<br/>
-                                사용기술 : Android
+                                Developed an android tablet app for consultants(product genius) and infaces with GearVR, Gear360 Camera, NFC Readers<br/>
+                                Android
                             </p>
                         </div>
                     </div>
@@ -294,10 +272,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>삼성생명화재 컨설팅 앱 개발 프로젝트 2016.06 ~ 2016.08 </h2>
+                            <h2>Samsung Life and Fire Insurance Consulting App Development 2016.06 ~ 2016.08 </h2>
                             <p>
-                                담당업무 : 보험설계사를 위한 컨설팅용 윈도우 태블릿 앱 프로토타입 개발<br/>
-                                사용기술 : Node.js, Electron.js
+                                Developed a window tablet app for insurance consultants<br/>
+                                Used Node.js and Electron.js 
                             </p>
                         </div>
                     </div>
@@ -307,10 +285,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>국세청 차세대 시스템 구축 및 운영 2013.10 ~ 2016.01 </h2>
+                            <h2>IT system development for National Tax Service of Korean Government 2013.10 ~ 2016.01 </h2>
                             <p>
-                                담당업무 : 양도소득세 신고 업무 관련 대내/대민 웹 서비스, 양도소득세 및 증여세 세액계산 서버 프로그램 개발<br/>
-                                사용기술 : Java, Spring Framework(전자정부 프레임워크), JavaScript, jQuery, DB2
+                                Developed server programs, tax calculating modules and UIs for the transfer income tax and gift tax <br/>
+                                Used Java, Spring Framework, JavaScript, jQuery, DB2
                             </p>
                         </div>
                     </div>
@@ -334,25 +312,25 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h2>산업 및 시스템 공학 석사 2008.09 ~ 2010.08</h2>
-                            <p>한국과학기술원 3.63 / 4.3</p>
+                            <h2>Master’s degree in Industrial and System Engineering</h2>
+                            <p>
+                                Korea Advanced Institute of Science and Technology, 2008.09 ~ 2010.08<br/>
+                                GPA 3.63 / 4.3
+                            </p>
                         </div>
                         <!-- .experience-item -->
                         <div class="content-item">
-                            <h2>산업 공학 학사 2000.03 ~ 2008.08</h2>
-                            <p>한양대학교 3.83 / 4/5</p>
+                            <h2>Bachelor’s degree in Industrial Engineering</h2>
+                            <p>
+                                Hanyang University, 2000.03 ~ 2008.08<br/>
+                                GPA 3.83 / 4.5
+                            </p>
                         </div>
                         <!-- .experience-item -->
                         <div class="content-item">
                             <h2>Additional Training</h2>
                             <p>
-                                Data 분석을 위한 통계 및 데이터마이닝 기본 (사내 교육) - 2019.06 (1주)<br/>
-                                Kubernetes 실무 (HP 교육센터) - 2019.05 (1주)<br/>
-                                빅데이터 분석을 위한 하둡, 스파크 아키텍처 (멀티캠퍼스) - 2018.12 (1주)<br/>
-                                Spring Framework를 활용한 Open API 서비스 개발 (멀티캠퍼스) - 2017.06 (1주)<br/>
-                                알고리즘 프로페셔널 양성과정 (삼성전자) - 2016.09 (2주)<br/>
-                                Agile 개발 방법론을 통한 소프트웨어 개발 역량 강화 (사내 교육) - 2016.02 (4주)<br/>
-                                삼성 SDS 개발직군 신입사원 교육 (사내 교육) - 2013.06 ~ 2013.07 (6주)
+                                Data Analysis, Statistics, Data Mining, Lambda Architecture with Spark, OpenAPI, Kubernetes and Agile Software Development
                             </p>
                         </div>
                         <!-- .experience-item -->
@@ -380,9 +358,9 @@
                         <div class="content-item">
                             <small>2017.05 ~ </small>
                             <h2>AngelTalk</h2>
-                            <h4>희귀난치성질환(엔젤만증후군) 환우들을 위한 AAC(대체의사소통도움) 앱 개발 프로젝트</h4>
                             <p>
-                                안드로이드 앱 개발, 오픈소스 커뮤니티 컨트리뷰트<br/>
+                                Developed an android app of AAC(Augmentative and Alternative Communication) for helping people who have speech impairments<br/>
+                                Contributed to open source project Angeltalk<br/>
                                 <a href="https://github.com/lab-act/AngelTalk">https://github.com/lab-act/AngelTalk</a><br/>
                                 <a href="https://play.google.com/store/apps/details?id=angeltalk.plus">https://play.google.com/store/apps/details?id=angeltalk.plus</a>
                             </p>
@@ -501,10 +479,10 @@
 <!-- #main-wrapper -->
 
 <!-- jquery -->
-<script src="js/jquery-2.1.4.min.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
 <!--owl carousal-->
-<script src="js/owl.carousel.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
 <!--theme script-->
-<script src="js/scripts.js"></script>
+<script src="../js/scripts.js"></script>
 </body>
 </html>
